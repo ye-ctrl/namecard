@@ -14,15 +14,15 @@
 
 #wrap {background: url('../images/bg.jpg'); padding-top: 40px;}
 
-header {margin-bottom: 40px; border: 1px solid #000; padding: 0 40px;}
+header {margin-bottom: 40px; padding: 0 40px;}
 header h1 {width: 80px; height: 80px; border-radius: 50%; margin: 0 auto; overflow: hidden; color: fff;}
 header h1 img {width: 100%;}
-header strong {font-size: 18px; text-align: center; display: block; margin-top: 10px;}
+header strong {color: #fff;font-size: 18px; text-align: center; display: block; margin-top: 10px;}
 header em {font-size: 14px; text-align: center; display: block; margin-top: 4px; color: #888; font-style: normal; word-break: keep-all;}
 .pc {display: none;}
 
 
-.btn_box {margin-bottom: 40px; border: 1px solid red; display: flex; flex-direction: column; align-items: center; gap: 16px; border: 1px solid #fff; justify-content: center; margin: 0 35px 40px 35px;}
+.btn_box {margin-bottom: 40px; display: flex; flex-direction: column; align-items: center; gap: 16px; justify-content: center; margin: 0 35px 40px 35px;}
 .btn_box a {background: #000; color: #000000; font-size: 16px; padding: 10px 13.33vw; border-radius: 4px; width:100px; text-align: center;}
 .btn_box a:nth-child(1) {background: #FFE3E3;}
 .btn_box a:nth-child(2) {background: #FFE7C3;}
@@ -30,17 +30,28 @@ header em {font-size: 14px; text-align: center; display: block; margin-top: 4px;
 .btn_box a:nth-child(4) {background: #FDFFA3;}
 .btn_box a:nth-child(5) {background: #D2FFD1; }
 
+a[href='sns:010-2352-7387']
 
 
 
 
 
 
+.map_box_km { border: 1px solid blue; padding: 0 35px; padding-bottom: 100px; }
 
-.map_box { border: 1px solid blue; padding: 0 35px; padding-bottom: 100px; }
+
+.map_box_km h2 {font-size: 16px; text-align: center; margin-bottom: 20px; color: #fff;}
 
 
-.map_box h2 {font-size: 16px; text-align: center; margin-bottom: 20px; color: fff;}
+.map_box_km .map_km .root_daum_roughmap .cont * {color: #fff; font-size: 15px;} 
+
+
+.map_box_km .map_km .roughmap_maker_label { animation: tongtong2 0.4s infinite alternate; animation-delay: 0.1s;}
+@keyframes tongtong2 {
+    0% {top: -57px;}
+    100% {top: -77px;}
+}
+
 
 
 @media screen and (min-width:800px){
