@@ -23,12 +23,12 @@ header em {font-size: 14px; text-align: center; display: block; margin-top: 4px;
 
 
 .btn_box {margin-bottom: 40px; border: 1px solid red; display: flex; flex-direction: column; align-items: center; gap: 16px; border: 1px solid #fff; justify-content: center; margin: 0 35px 40px 35px;}
-.btn_box a {background: #000; color: #fff; font-size: 16px; padding: 10px 13.33vw; border-radius: 4px; width:100px; text-align: center;}
-.btn_box a:nth-child(1) {background: #579f50;}
-.btn_box a:nth-child(2) {background: #198686;}
-.btn_box a:nth-child(3) {background: #ad7116;}
-.btn_box a:nth-child(4) {background: #8a2360;}
-.btn_box a:nth-child(5) {background: #109580; }
+.btn_box a {background: #000; color: #000000; font-size: 16px; padding: 10px 13.33vw; border-radius: 4px; width:100px; text-align: center;}
+.btn_box a:nth-child(1) {background: #FFE3E3;}
+.btn_box a:nth-child(2) {background: #FFE7C3;}
+.btn_box a:nth-child(3) {background: #F9DBFE;}
+.btn_box a:nth-child(4) {background: #FDFFA3;}
+.btn_box a:nth-child(5) {background: #D2FFD1; }
 
 
 
